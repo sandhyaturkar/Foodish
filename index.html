@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+ 
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<header class="container">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target fixed-top clr"
+        id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">FooDish</a>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+                data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class = "container a" id="home-section">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals For Your Ingredients</h2>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+          <cite>- Jamie Oliver</cite>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+          <!-- meal item -->
+          <!-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "food.jpg" alt = "food">
+            </div>
+            <div class = "meal-name">
+              <h3>Potato Chips</h3>
+              <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          <!-- end of meal item -->
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+          <p class = "recipe-category">Category Name</p>
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "recipe-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "recipe-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+ <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6 col-lg-6 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay"></div>
+                        <div class="col-md-6">
+                            <img src="food.jpg" alt="" class="backs">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 pl-lg-5 pb-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-6 heading-section ftco-animate">
+                            
+                            <h2 class="mb-4">About US</h2>
+                            <p>It is the Food Recipe Website in which you can see famous recipe by using ingredients. And food recipe data will be fetch by API</p>
+                          
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section class="ftco-section contact-section ftco-no-pb clr" id="contact-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    
+                    <h2 class="mb-4">Contact Me</h2>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="row d-flex contact-info mb-5">
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-map-signs"></span>
+                        </div>
+                        <h3 class="mb-4">Address</h3>
+                        <p>Kamgar Colony, Subhash Nagar, Near IT Park, Nagpur</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-phone2"></span>
+                        </div>
+                        <h3 class="mb-4">Contact Number</h3>
+                        <p><a href="tel://9168748505"  class="clr">9168748505, 7722803581</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-paper-plane"></span>
+                        </div>
+                        <h3 class="mb-4">Email Address</h3>
+                        <p><a href="mailto:info@yoursite.com"  class="clr">turkarsandhya34@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-globe"></span>
+                        </div>
+                        <h3 class="mb-4">Website</h3>
+                        <p><a href="#"  class="clr">www.lurtechs.com, www.nutripure.co.in</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+  <script src = "script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
